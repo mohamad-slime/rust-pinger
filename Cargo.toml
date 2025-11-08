@@ -1,0 +1,11 @@
+[package]
+name = "rust-pinger"
+version = "0.1.0"
+edition = "2024"
+authors = ["Mohamd"]
+description = "A simple async ping tool written in Rust."
+license = "MIT"
+repository = "https://github.com/mohamad-slime/rust-pinger"
+[dependencies]
+surge-ping = "0.8.3"
+tokio = { version = "1", features = ["full"] }
